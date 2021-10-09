@@ -6,7 +6,7 @@ class MainModel extends ChangeNotifier{
 
   void changeText(){
     if(flag = false){
-      text = "テキストが変わった";
+      text = "テキストが変わりました";
       flag = true;
     }else{
       text = "テキスト";
